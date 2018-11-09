@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Oct 13 22:22:00 ICT 2018
+0.baseType=DIRECTORY
+0.base=/Users/vinhmai/Workspace/app-android/SuperKids/app/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+0.set=DEX
+count=1
