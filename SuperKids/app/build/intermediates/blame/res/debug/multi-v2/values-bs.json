@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vinhmai/Workspace/app-android/SuperKids/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
+            "outputFile": "/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "/Users/vinhmai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/be79a3a173e4c577ab8abb352d435cdc/res/values-bs/values-bs.xml",

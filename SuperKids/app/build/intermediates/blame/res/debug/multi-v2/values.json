@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vinhmai/Workspace/app-android/SuperKids/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/vinhmai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f819283c11347c9dc60dee9bfefaef7a/res/values/values.xml",
@@ -42,24 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/vinhmai/Workspace/app-android/SuperKids/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
-                    }
-                },
-                {
-                    "source": "/Users/vinhmai/Workspace/app-android/SuperKids/app/src/main/res/values/strings.xml",
+                    "source": "/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -73,6 +56,23 @@
                         "startOffsets": "56279",
                         "endColumns": "47",
                         "endOffsets": "56322"
+                    }
+                },
+                {
+                    "source": "/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
                     }
                 },
                 {
@@ -114,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "/Users/vinhmai/Workspace/app-android/SuperKids/app/src/main/res/values/styles.xml",
+                    "source": "/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",

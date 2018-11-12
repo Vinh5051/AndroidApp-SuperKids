@@ -1,7 +1,7 @@
 package com.example.vinhmai.superkids.controller;
 
 import com.example.vinhmai.superkids.models.Topic;
-import com.example.vinhmai.superkids.models.Object;
+import com.example.vinhmai.superkids.models.Objects;
 
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class TopicManager {
 
     private ArrayList<Topic> mTopicsList;
-    private ArrayList<Object> mObjectsList;
+    private ArrayList<Objects> mObjectsList;
 
     private static TopicManager sInstance = null;
 
@@ -33,9 +33,9 @@ public class TopicManager {
         return mTopicsList;
     }
 
-    public ArrayList<Object> getmObjectsList(Topic topic) {
-        ArrayList<Object> list = new ArrayList<>();
-        for(Object v : mObjectsList){
+    public ArrayList<Objects> getmObjectsList(Topic topic) {
+        ArrayList<Objects> list = new ArrayList<>();
+        for(Objects v : mObjectsList){
             if(v.getTopicId() == topic.getId()){
                 list.add(v);
             }
@@ -48,26 +48,28 @@ public class TopicManager {
         Topic t2 = new Topic(2, "T2");
         Topic t3 = new Topic(3, "T3");
         Topic t4 = new Topic(4, "T4");
+        //Topic t5 = new Topic(5, "T5");
 
         mTopicsList.add(t1);
         mTopicsList.add(t2);
         mTopicsList.add(t3);
         mTopicsList.add(t4);
+        //mTopicsList.add(t5);
 
-        Object v1 = new Object("W11", "P11", "M11", 1);
-        Object v2 = new Object("W12", "P12", "M12", 1);
-        Object v3 = new Object("W13", "P13", "M13", 1);
-        Object v4 = new Object("W14", "P14", "M14", 1);
+        Objects v1 = new Objects(11, "W11", "S11", "L11", 21);
+        Objects v2 = new Objects(12, "W12", "S12", "L12", 22);
+        Objects v3 = new Objects(13, "W13", "S13", "L13", 23);
+        Objects v4 = new Objects(14, "W14", "S14", "L14", 24);
 
         mObjectsList.add(v1);
         mObjectsList.add(v2);
         mObjectsList.add(v3);
         mObjectsList.add(v4);
 
-        mObjectsList.add(new Object("W21", "P21", "M21", 2));
-        mObjectsList.add(new Object("W22", "P22", "M22", 2));
-        mObjectsList.add(new Object("W23", "P23", "M23", 2));
-        mObjectsList.add(new Object("W24", "P24", "M24", 2));
+        mObjectsList.add(new Objects(11, "W11", "S11", "L11", 21));
+        mObjectsList.add(new Objects(12, "W12", "S12", "L12", 22));
+        mObjectsList.add(new Objects(13, "W13", "S13", "L13", 23));
+        mObjectsList.add(new Objects(14, "W14", "S14", "L14", 24));
 
     }
 }

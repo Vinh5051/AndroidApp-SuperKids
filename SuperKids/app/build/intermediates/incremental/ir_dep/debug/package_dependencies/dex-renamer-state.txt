@@ -1,4 +1,4 @@
-#Tue Oct 16 22:42:54 ICT 2018
-base.0=/Users/vinhmai/Workspace/app-android/SuperKids/app/build/intermediates/transforms/dexMerger/debug/125
+#Mon Nov 12 23:35:35 ICT 2018
+base.0=/Users/vinhmai/Workspace/app-android/AndroidApp-SuperKids/SuperKids/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex
